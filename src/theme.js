@@ -24,8 +24,8 @@ export const colors = {
     // 900: "#e0e0e0",
   },
   base: {
-    100: '#FFFFFF',
-    200: '',
+    100: "#FFFFFF",
+    200: "",
     // 300
     // 400
     // 500
@@ -35,7 +35,7 @@ export const colors = {
   blue: {
     100: "#D1E9FF",
     200: "#B2DDFF",
-    // 
+    //
     // 300: "#0c101b",
     400: "#528BFF", // manually changed
     // 500: "#141b2d",
@@ -132,13 +132,32 @@ export const theme = createTheme({
     },
   },
   typography: {
-    font1: {},
-    font2: {},
+    fontFamily: ["Inter", "sans-serif"].join(","),
+    heading1: {
+      fontSize: "58px",
+      lineHeight: "60px",
+      fontWeight: 600,
+    },
+    heading2: {
+      fontSize: "40px",
+      lineHeight: "60px",
+      fontWeight: 600,
+    },
+    textHead1: {
+      fontSize: "18px",
+      lineHeight: "30px",
+      fontWeight: 500,
+    },
     font3: {},
     font4: {
       fontSize: "1.1rem",
       lineHeight: 1.2,
       fontWeight: 600,
+    },
+    text1: {
+      fontSize: "16px",
+      lineHeight: "25px",
+      fontWeight: 400,
     },
   },
 });
