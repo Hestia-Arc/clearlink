@@ -1,11 +1,10 @@
 import { Box, styled } from "@mui/material";
-import HeroBackImage from "../../assets/Background-pattern.jpg";
-import { colors } from "../../theme/theme";
+import HeroBackImage from "../assets/Background-pattern.jpg";
+import { colors } from "../theme";
 
 export const HeroBox = styled(Box)({
     height: '100vh',
     padding: '40px 85px ',
-    border: '8px solid black',
     border: '1px solid red',
     backgroundImage: `url(${HeroBackImage})`,
     backgroundPosition: '100%',

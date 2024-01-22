@@ -1,9 +1,9 @@
 import React from "react";
-import { Nav, Nav__logo, } from "./Hero-styles";
-import Logo from "../../assets/clearlink-logo.svg";
+import { Nav, Nav__logo, } from "../styles/Hero-styles";
+import Logo from "../assets/clearlink-logo.svg";
 import { Button, Stack, Typography } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
-import { StyledButton } from "../../shared/UI/UI";
+import { StyledButton } from "../shared/UI/UI";
 
 function Menu({ tag }) {
   return (

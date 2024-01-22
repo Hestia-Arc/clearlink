@@ -1,7 +1,7 @@
 import { Box, CssBaseline, ThemeProvider } from "@mui/material";
 import "./App.css";
 import Home from "./pages/Home";
-import { colors, theme } from "./theme/theme";
+import { colors, theme } from "./theme";
 
 function App() {
   return (
