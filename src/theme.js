@@ -129,8 +129,8 @@ export const theme = createTheme({
   typography: {
     fontFamily: ["Inter", "sans-serif"].join(","),
     heading1: {
-      fontSize: "58px",
-      lineHeight: "60px",
+      fontSize: "52.5px",
+      lineHeight: "58px",
       fontWeight: 600,
     },
     heading2: {

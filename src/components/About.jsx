@@ -48,8 +48,8 @@ function About() {
         alt="icon"
         style={{
           position: "absolute",
-          top: "7rem",
-          right: "16.6rem",
+          top: "6.7rem",
+          right: "15.7rem",
           height: "230px",
         }}
       />
