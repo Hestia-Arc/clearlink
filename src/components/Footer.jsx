@@ -2,10 +2,18 @@ import { Box, Stack, Typography } from "@mui/material";
 import React from "react";
 import { colors } from "../theme";
 import Logo from "../assets/clearlink-logo.svg";
+import Googleplay from "../assets/googlePlay.svg";
+import Applestore from "../assets/appleStore.svg";
+import Fb from "../assets/fb.svg";
+import Github from "../assets/gity.svg";
+import indeed from "../assets/indeed.svg";
+import Instagram from "../assets/insta.svg";
+import YoutubeIcon from "../assets/youtube.svg";
+import Twittericon from "../assets/tweety.svg";
 
 const ListBox = ({ heading, tag1, tag2, tag3, tag4, tag5 }) => {
   return (
-    <Stack>
+    <Stack spacing={1}>
       <Typography variant="text5" sx={{ color: colors.gray[500] }}>
         {heading}
       </Typography>
@@ -39,16 +47,18 @@ function Footer() {
       >
         <Box
           sx={{
-            height: "220px",
+            height: "250px",
             display: "flex",
             justifyContent: "space-between",
             // border: "1px solid red",
           }}
         >
-          <Stack>
-            <Stack direction="row" alignItems="center" spacing={1}>
-              <img src={Logo} alt="company's logo" />
-              <Typography>ClearLink</Typography>
+          <Stack spacing={4}>
+            <Stack direction="row" alignItems="center" spacing={0.9}>
+              <img src={Logo} alt="company's logo" style={{ height: "24px" }} />
+              <Typography variant="textHead2" sx={{ color: colors.gray[900] }}>
+                ClearLink<span style={{ color: colors.blue[400] }}>.</span>
+              </Typography>
             </Stack>
             <Typography
               variant="text2"
@@ -62,7 +72,7 @@ function Footer() {
           </Stack>
 
           {/*  */}
-          <Stack direction="row" spacing={9}>
+          <Stack direction="row" spacing={11}>
             <ListBox
               heading="Product"
               tag1="Overview"
@@ -99,10 +109,13 @@ function Footer() {
               tag5="Contact"
             />
 
-            <Stack>
+            <Stack spacing={1.8}>
               <Typography variant="textHead3" sx={{ color: colors.blue[700] }}>
                 Get the app
               </Typography>
+
+              <img src={Applestore} alt="icon" />
+              <img src={Googleplay} alt="icon" />
             </Stack>
           </Stack>
         </Box>
@@ -123,7 +136,14 @@ function Footer() {
           © 2023 ClearLink. All rights reserved.
         </Typography>
 
-        <Box>Icons</Box>
+        <Stack direction="row" spacing={2.3}>
+          <img src={indeed} alt="icon" />
+          <img src={Twittericon} alt="icon" />
+          <img src={Fb} alt="icon" />
+          <img src={Instagram} alt="icon" />
+          <img src={Github} alt="icon" />
+          <img src={YoutubeIcon} alt="icon" />
+        </Stack>
       </Stack>
     </Box>
   );

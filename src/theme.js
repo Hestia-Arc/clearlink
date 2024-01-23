@@ -36,14 +36,8 @@ export const colors = {
   blue: {
     100: "#D1E9FF",
     200: "#B2DDFF",
-    //
-    // 300: "#0c101b",
     400: "#528BFF", // manually changed
-    // 500: "#141b2d",
-    // 600: "#1F2A40",
     700: "#175CD3",
-    // 800: "#a1a4ab",
-    // 900: "#d0d1d5",
   },
   accent: {
     100: "#0f2922",
@@ -146,11 +140,11 @@ export const theme = createTheme({
     },
     heading3: {
       fontSize: "32px",
-      lineHeight: "48px",
+      lineHeight: "44px",
       fontWeight: 500,
     },
     textHead1: {
-      fontSize: "18px",
+      fontSize: "16px",
       lineHeight: "30px",
       fontWeight: 500,
     },
@@ -184,7 +178,7 @@ export const theme = createTheme({
     text2: {
       fontSize: "14px",
       lineHeight: "22px",
-      fontWeight: 400,
+      fontWeight: 600,
     },
     text3: {
       fontSize: "20px",

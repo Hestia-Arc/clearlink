@@ -25,8 +25,8 @@ const ItemBox = ({ img, tag, text }) => {
           border: "1px solid",
           borderColor: colors.gray[200],
           width: "50px",
-          padding: '10px',
-          borderRadius: '30px'
+          padding: "10px",
+          borderRadius: "30px",
         }}
       >
         <img src={img} alt="icon" />
@@ -42,13 +42,28 @@ const ItemBox = ({ img, tag, text }) => {
 };
 function About() {
   return (
-    <Box sx={{padding: '95px 85px'}}>
+    <Box sx={{ padding: "95px 85px", position: "relative" }}>
+      <img
+        src={arrowDrawing}
+        alt="icon"
+        style={{
+          position: "absolute",
+          top: "7rem",
+          right: "16.6rem",
+          height: "230px",
+        }}
+      />
+
       <Stack spacing={1}>
-        <Typography variant="textHead3" sx={{ color: colors.blue[700] }}>The ClearLink Advantage</Typography>
-        <Typography variant="heading2" sx={{ color: colors.gray[900] }}>Why choose ClearLink?</Typography>
+        <Typography variant="textHead3" sx={{ color: colors.blue[700] }}>
+          The ClearLink Advantage
+        </Typography>
+        <Typography variant="heading2" sx={{ color: colors.gray[900] }}>
+          Why choose ClearLink?
+        </Typography>
         <Typography variant="text3" sx={{ color: colors.gray[500] }}>
           In a world where connection is everything, ClearLink takes the lead.
-          Our <br/> cutting-edge video conferencing app offers:
+          Our <br /> cutting-edge video conferencing app offers:
         </Typography>
       </Stack>
 
@@ -102,7 +117,7 @@ function About() {
           <img
             src={aboutImage}
             alt="face grid"
-            style={{ height: "427px", width: "500px" }}
+            style={{ height: "427px", width: "498px" }}
           />
         </Box>
       </Stack>

@@ -31,7 +31,7 @@ function Trial() {
       }}
     >
       <Stack spacing={2}>
-        <Stack spacing={2.5} sx={{ width: "500px",
+        <Stack spacing={3} sx={{ width: "500px",
         //  border: "1px solid red" 
          }}>
           {/*  */}
@@ -48,9 +48,9 @@ function Trial() {
           </Stack>
 
           {/*  */}
-          <Stack direction="row" spacing={1}>
-            <StyledButton variant="outlined">Talk to sales</StyledButton>
-            <StyledButton variant="contained">Sign up for free</StyledButton>
+          <Stack direction="row" spacing={1.5}>
+            <StyledButton variant="outlined" width='130px'>Talk to sales</StyledButton>
+            <StyledButton variant="contained" width='180px'>Start your free trial</StyledButton>
           </Stack>
         </Stack>
         <img

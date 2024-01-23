@@ -4,6 +4,7 @@ import Logo from "../assets/clearlink-logo.svg";
 import { Button, Stack, Typography } from "@mui/material";
 import KeyboardArrowDownIcon from "@mui/icons-material/KeyboardArrowDown";
 import { StyledButton } from "../shared/UI/UI";
+import { colors } from "../theme";
 
 function Menu({ tag }) {
   return (
@@ -17,10 +18,10 @@ function Header() {
   return (
     <header>
       <Nav>
-        <Stack direction="row" alignItems='center' spacing={1}>
-          <img src={Logo} alt="company's logo" />
-          <Typography>ClearLink</Typography>
-        </Stack>
+      <Stack direction="row" alignItems="center" spacing={0.9}>
+              <img src={Logo} alt="company's logo" style={{height: '24px'}} />
+              <Typography variant="textHead2" sx={{ color: colors.gray[900] }}>ClearLink<span style={{ color: colors.blue[400] }}>.</span></Typography>
+            </Stack>
 
         <Stack direction="row" spacing={3}>
           <Menu tag="Products" />
