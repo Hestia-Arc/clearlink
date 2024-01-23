@@ -10,7 +10,7 @@ function App() {
         sx={{
           height: "100vh",
           width: "100%",
-          color: colors.gray[500],
+          // color: colors.gray[500],
           backgroundColor: colors.base[100],
         }}
       >

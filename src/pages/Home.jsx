@@ -4,15 +4,21 @@ import Footer from "../components/Footer";
 import Proof from "../components/Proof";
 import About from "../components/About";
 import { Box } from "@mui/material";
+import Testimonial from "../components/Testimonial";
+import Trial from "../components/Trial";
+import Faqs from "../components/Faqs";
 
 function Home() {
   return (
-    <Box sx={{padding: '0 85px'}}>
+    <>
       <Hero />
-      <Proof/>
-      <About/>
-      <Footer/>
-    </Box>
+      <Proof />
+      <About />
+      <Testimonial />
+      <Faqs />
+      <Trial />
+      <Footer />
+    </>
   );
 }
 

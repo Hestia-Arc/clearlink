@@ -13,15 +13,16 @@ const breakpoints = {
 
 export const colors = {
   gray: {
+    50: '#F9FAFB',
     100: "#F2F4F7",
-    // 200: "#292929",
+    200: "#EAECF0",
     300: "#D0D5DD",
-    // 400: "#525252",
+    400: "#98A2B3",
     500: "#667085",
-    // 600: "#858585",
+    600: "#475467",
     // 700: "#a3a3a3",
     // 800: "#c2c2c2",
-    // 900: "#e0e0e0",
+    900: "#101828",
   },
   base: {
     100: "#FFFFFF",
@@ -139,15 +140,36 @@ export const theme = createTheme({
       fontWeight: 600,
     },
     heading2: {
-      fontSize: "40px",
-      lineHeight: "60px",
+      fontSize: "38px",
+      lineHeight: "45px",
       fontWeight: 600,
+    },
+    heading3: {
+      fontSize: "32px",
+      lineHeight: "48px",
+      fontWeight: 500,
     },
     textHead1: {
       fontSize: "18px",
       lineHeight: "30px",
       fontWeight: 500,
     },
+    textHead2: {
+      fontSize: "19px",
+      lineHeight: "24px",
+      fontWeight: 600,
+    },
+    textHead3: {
+      fontSize: "15px",
+      lineHeight: "24px",
+      fontWeight: 600,
+    },
+    textHead4: {
+      fontSize: "16px",
+      lineHeight: "24px",
+      fontWeight: 600,
+    },
+    
     font3: {},
     font4: {
       fontSize: "1.1rem",
@@ -158,6 +180,28 @@ export const theme = createTheme({
       fontSize: "16px",
       lineHeight: "25px",
       fontWeight: 400,
+    },
+    text2: {
+      fontSize: "14px",
+      lineHeight: "22px",
+      fontWeight: 400,
+    },
+    text3: {
+      fontSize: "20px",
+      lineHeight: "32px",
+      fontWeight: 400,
+    },
+    text4: {
+      fontSize: "14px",
+      lineHeight: "32px",
+      fontWeight: 600,
+      
+    },
+    text5: {
+      fontSize: "12px",
+      lineHeight: "32px",
+      fontWeight: 600,
+      
     },
   },
 });

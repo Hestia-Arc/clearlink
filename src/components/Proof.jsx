@@ -15,7 +15,7 @@ const imgStyle = {
 
 function Proof() {
   return (
-    <Stack alignItems='center' spacing={4} sx={{height: '250px', padding: '50px 0', border: '1px solid blue'}}>
+    <Stack alignItems='center' spacing={4} sx={{height: '250px', padding: '50px 85px', border: '1px solid blue'}}>
       <Typography variant="textHead1">
         Join 1,500+ companies already video conferencing the ClearLink way
       </Typography>

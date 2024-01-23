@@ -4,7 +4,7 @@ import { colors } from "../theme";
 
 export const HeroBox = styled(Box)({
     height: '100vh',
-    padding: '40px 0 ',
+    padding: '40px 85px',
     border: '1px solid red',
     backgroundImage: `url(${HeroBackImage})`,
     backgroundPosition: '100%',
